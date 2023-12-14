@@ -1,0 +1,7 @@
+1st question.Git Switch and Git Checkout are both used for switching between different branches in a repository. However, Git Checkout is a versatile command also capable of discarding changes and creating new branches, while Git Switch is a newer, more specialized command focused solely on switching and creating branches.
+2nd question.Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
+3rd question.As we've discussed previously in rewriting history, you should never rebase commits once they've been pushed to a public repository. The rebase would replace the old commits with new ones and it would look like that part of your project history abruptly vanished.
+4th question.How to Show All Remote and Local Branch Names
+To see local branch names, open your terminal and run git branch :
+To see all remote branch names, run git branch -r :
+To see all local and remote branches, run git branch -a :
